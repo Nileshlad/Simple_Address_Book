@@ -42,4 +42,21 @@ public class AddressBookTest {
             e.printStackTrace();
         }
     }
+
+    //TEST CASE 1.2
+    @Test
+    public void givenPersonalInformation_whenUpdateData_shouldReturnTrue() {
+        try {
+            String uniqueData = "8888310299";
+            Person personInformation = new Person
+                    ("pawan", "lad", "krantinagar", "sangli", "maharashtra", "416309", "8888310299");
+            int indexNumber = addressBookController.updatePersonData(personInformation, filePath, uniqueData);
+            ArrayList<Person> data = objectMapper
+                    .readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
+                    });
+           Assert.assertEquals(personInformation.getPhoneNumber(), data.get(indexNumber).getPhoneNumber());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

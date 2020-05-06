@@ -22,7 +22,7 @@ public class AddressBookController implements IAddressBook {
         objectMapper.writeValue(new File(filePath), list);
     }
 
-    //add person
+    //add person information
     @Override
     public void addPersonInformation(Person person, String filePath) {
         try {
@@ -36,14 +36,14 @@ public class AddressBookController implements IAddressBook {
         }
     }
 
-    //
+    //update person data
     @Override
     public int updatePersonData(Person person, String filePath, String uniqueData) {
         int indexNumber = 0;
         try {
             ArrayList<Person> data = readFileData(filePath);
             for (Person personData : data) {
-                if (personData.getPhoneNumber().equals(uniqueData)) {
+                if (personData.getPhoneNumber()==(uniqueData)) {
                     indexNumber = data.indexOf(personData);
                     personData.setAddress(person.getAddress());
                     personData.setCity(person.getCity());
