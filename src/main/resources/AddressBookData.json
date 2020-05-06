@@ -1,0 +1,20 @@
+[
+  {
+    "firstName": null,
+    "lastName": null,
+    "address": null,
+    "city": null,
+    "state": null,
+    "zip": null,
+    "phoneNumber": null
+  },
+  {
+    "firstName": "Nilesh",
+    "lastName": "lad",
+    "address": "kranti nagar",
+    "city": "sangli",
+    "state": "Maharashtra",
+    "zip": "416309",
+    "phoneNumber": "8888310299"
+  }
+]
