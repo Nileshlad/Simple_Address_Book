@@ -54,7 +54,7 @@ public class AddressBookTest {
             ArrayList<Person> data = objectMapper
                     .readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
                     });
-            Assert.assertEquals(personInformation.getPhoneNumber(), data.get(indexNumber).getPhoneNumber());
+            Assert.assertEquals(personInformation.getPhoneNumber(), uniqueData);
         } catch (IOException e) {
             e.printStackTrace();
         }
