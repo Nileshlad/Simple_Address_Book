@@ -6,23 +6,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/AddressBookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/AddressBookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/addressbooktest/AddressBookTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/addressbooktest/AddressBookTest$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/addressbooktest/AddressBookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/addressbooktest/AddressBookTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/addressbooktest.AddressBookTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/addressbooktest.AddressBookTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/addressbooktest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/addressbooktest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/AddressBookData.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/AddressBookData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-addressbooktest.AddressBookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-addressbooktest.AddressBookTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/AddressBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/AddressBookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/AddressBookData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/AddressBookData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/addressbooktest/AddressBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/addressbooktest/AddressBookTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +68,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AddressBookTest.givenPersonalInformation_whenUpdateData_shouldReturnTrue">
+  <component name="RunManager" selected="Gradle.AddressBookTest.givenPersonInformation_whenDeleteData_shouldRetunTrue">
+    <configuration name="AddressBookTest.givenPersonInformation_whenDeleteData_shouldRetunTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;addressbooktest.AddressBookTest.givenPersonInformation_whenDeleteData_shouldRetunTrue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="AddressBookTest.givenPersonalInformation_whenStoreInFile_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -119,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenDeleteData_shouldRetunTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonalInformation_whenUpdateData_shouldReturnTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonalInformation_whenStoreInFile_shouldReturnTrue" />
       </list>

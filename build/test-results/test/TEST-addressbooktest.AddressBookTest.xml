@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="addressbooktest.AddressBookTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-05-06T11:59:15" hostname="blackhawkkk" time="0.459">
+<testsuite name="addressbooktest.AddressBookTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-06T12:14:09" hostname="blackhawkkk" time="0.491">
   <properties/>
-  <testcase name="givenPersonalInformation_whenUpdateData_shouldReturnTrue" classname="addressbooktest.AddressBookTest" time="0.459">
-    <failure message="java.lang.AssertionError: expected:&lt;8888310299&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;8888310299&gt; but was:&lt;null&gt;
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.failNotEquals(Assert.java:834)
-	at org.junit.Assert.assertEquals(Assert.java:118)
-	at org.junit.Assert.assertEquals(Assert.java:144)
-	at addressbooktest.AddressBookTest.givenPersonalInformation_whenUpdateData_shouldReturnTrue(AddressBookTest.java:56)
+  <testcase name="givenPersonInformation_whenDeleteData_shouldRetunTrue" classname="addressbooktest.AddressBookTest" time="0.491"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[java.lang.NullPointerException
+	at controller.AddressBookController.deletePersonData(AddressBookController.java:68)
+	at addressbooktest.AddressBookTest.givenPersonInformation_whenDeleteData_shouldRetunTrue(AddressBookTest.java:72)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,8 +54,5 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-</failure>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+]]></system-err>
 </testsuite>

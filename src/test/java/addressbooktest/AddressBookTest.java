@@ -54,8 +54,28 @@ public class AddressBookTest {
             ArrayList<Person> data = objectMapper
                     .readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
                     });
-           Assert.assertEquals(personInformation.getPhoneNumber(), data.get(indexNumber).getPhoneNumber());
+            Assert.assertEquals(personInformation.getPhoneNumber(), data.get(indexNumber).getPhoneNumber());
         } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    //TEST CASE 1.3
+    @Test
+    public void givenPersonInformation_whenDeleteData_shouldRetunTrue() throws Exception {
+        try {
+            String uniqueData = "8888310299";
+            ArrayList<Person> beforeDeletedData = objectMapper
+                    .readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
+                    });
+            int beforeDeletedSize = beforeDeletedData.size();
+            addressBookController.deletePersonData(filePath, uniqueData);
+            ArrayList<Person> afterDeletedData = objectMapper
+                    .readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
+                    });
+            int afterDeletedSize = afterDeletedData.size() + 1;
+            Assert.assertEquals(beforeDeletedSize, afterDeletedSize);
+        } catch (NullPointerException e) {
             e.printStackTrace();
         }
     }
