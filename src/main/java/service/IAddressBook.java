@@ -11,9 +11,7 @@ public interface IAddressBook {
      *   This method is used to create new
      *   json file.
      */
-
     public void addPersonInformation(Person person, String filePath);
-
     /*
      *   This method is used to add
      *   person information in json file.
