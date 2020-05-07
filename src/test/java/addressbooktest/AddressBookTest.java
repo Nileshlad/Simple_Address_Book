@@ -156,10 +156,20 @@ public class AddressBookTest {
         Assert.assertTrue(isPrinted);
     }
 
+    //TEST CASE 1.8
     @Test
     public void givenPersonInformation_whenCreateNewAddressBook_shouldReturnTrue() {
         String addressBookName = "Nileshraj";
         boolean isFileCreated = addressBookController.createNewAddressBook(addressBookName);
         Assert.assertTrue(isFileCreated);
     }
+
+    //TEST CASE 1.9
+    @Test
+    public void givenPersonInformation_whenOpenExistingAddressBook_shouldReturnTrue() {
+        String addressBookName = "Nilesh";
+        boolean isFileExist = addressBookController.openExistingAddressBook(addressBookName);
+        Assert.assertTrue(isFileExist);
+    }
+
 }
