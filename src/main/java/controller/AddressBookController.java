@@ -98,7 +98,7 @@ public class AddressBookController implements IAddressBook {
             ArrayList<Person> data = readFileData(filePath);
             data.sort(Comparator.comparing(Person::getZip));
             writeFileData(data, filePath);
-        } catch (IOException e) {
+        } catch (NullPointerException | IOException e) {
             e.printStackTrace();
         }
     }

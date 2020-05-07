@@ -145,7 +145,14 @@ public class AddressBookTest {
         ArrayList<Person> data = objectMapper
                 .readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
                 });
-        Assert.assertEquals("632311", data.get(0).getZip());
-        Assert.assertEquals("899091", data.get(data.size() - 1).getZip());
+        Assert.assertEquals("458963", data.get(0).getZip());
+        Assert.assertEquals("416416", data.get(data.size() - 1).getZip());
+    }
+
+    //TEST CASE 1.7
+    @Test
+    public void givenPersonInformation_whenPrintEntriesData_shouldReturnTrue() {
+        boolean isPrinted = addressBookController.printPersonEntriesData(filePath);
+        Assert.assertTrue(isPrinted);
     }
 }
