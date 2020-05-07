@@ -222,4 +222,20 @@ public class AddressBookTest {
         Assert.assertTrue(isSaveAs);
     }
 
+    //TEST CASE 1.14
+    @Test
+    public void givenAddressBook_whenExit() {
+        try {
+            Person personInformation = new Person
+                    ("pranv", "avte", "kundal road", "puna", "maharashtra", "707121", "8308087259");
+            addressBookController.addPersonInformation(personInformation, filePath);
+            ArrayList<Person> data = objectMapper.
+                    readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
+                    });
+            addressBookController.saveAddressBook(filePath, data);
+            addressBookController.quitAddressBook();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

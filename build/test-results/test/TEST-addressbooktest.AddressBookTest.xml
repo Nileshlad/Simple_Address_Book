@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="addressbooktest.AddressBookTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-07T09:38:07" hostname="blackhawkkk" time="0.459">
+<testsuite name="addressbooktest.AddressBookTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-05-07T10:25:26" hostname="blackhawkkk" time="0.865">
   <properties/>
-  <testcase name="givenPersonInformation_whenSaveAsAddressBook_shouldReturnTrue" classname="addressbooktest.AddressBookTest" time="0.459"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenAddressBook_whenExit" classname="addressbooktest.AddressBookTest" time="0.865">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[Exit..
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
