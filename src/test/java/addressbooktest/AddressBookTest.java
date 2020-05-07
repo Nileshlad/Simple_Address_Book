@@ -180,4 +180,15 @@ public class AddressBookTest {
         Assert.assertFalse(isFileExist);
     }
 
+    //TEST CASE 1.11
+    @Test
+    public void givenPersonInformation_whenOpenExistingAddressBook_shouldReturnTrue1() throws IOException {
+        String addressBookName = "Nilesh";
+        String filePath = "C:\\Users\\Blackhawkkk1\\IdeaProjects\\Simple_AddressBook_Statement\\src\\main\\resources\\Nilesh.json";
+        addressBookController.openExistingAddressBook(addressBookName);
+        ArrayList<Person> data = objectMapper
+                .readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
+                });
+        Assert.assertEquals("lad", data.get(0).getLastName());
+    }
 }
