@@ -191,4 +191,22 @@ public class AddressBookTest {
                 });
         Assert.assertEquals("lad", data.get(0).getLastName());
     }
+
+    //TEST CASE 1.12
+    @Test
+    public void givenPensonInformation_whenSaveAddressBook_shouldReturnTrue() {
+        try {
+            String filePath = "C:\\Users\\Blackhawkkk1\\IdeaProjects\\Simple_AddressBook_Statement\\src\\main\\resources\\Nilesh.json";
+            Person personInformation = new Person
+                    ("Akash", "savat", "Nagar", "kholapur", "Karnataka", "458963", "7083560957");
+            addressBookController.addPersonInformation(personInformation, filePath);
+            ArrayList<Person> data = objectMapper.
+                    readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
+                    });
+            boolean isFileSaved = addressBookController.saveAddressBook(filePath, data);
+            Assert.assertTrue(isFileSaved);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

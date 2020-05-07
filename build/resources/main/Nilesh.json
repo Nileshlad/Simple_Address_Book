@@ -1,11 +1,1 @@
-[
-    {
-    "firstName": "Nilesh",
-    "lastName": "lad",
-    "address": "kranti nagar",
-    "city": "sangli",
-    "state": "Maharashtra",
-    "zip": "416309",
-    "phoneNumber": "8888310299"
-   }
-]
+[{"firstName":"Nilesh","lastName":"lad","address":"kranti nagar","city":"sangli","state":"Maharashtra","zip":"416309","phoneNumber":"8888310299"},{"firstName":"Akash","lastName":"Savat","address":"Nagar","city":"Karnataka","state":"kholapur","zip":"458963","phoneNumber":"7083560957"}]
