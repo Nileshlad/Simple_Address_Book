@@ -79,13 +79,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AddressBookTest.givenPersonInformation_whenSortedDataByZipCode_shouldReturnTrue">
-    <configuration name="AddressBookTest.givenPersonInformation_whenDeleteData_shouldRetunTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AddressBookTest.givenPersonInformation_whenPrintEntriesData_shouldReturnTrue">
+    <configuration name="AddressBookTest.givenPersonInformation_whenPrintEntriesData_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;addressbooktest.AddressBookTest.givenPersonInformation_whenDeleteData_shouldRetunTrue&quot;" />
+        <option name="scriptParameters" value="--tests &quot;addressbooktest.AddressBookTest.givenPersonInformation_whenPrintEntriesData_shouldReturnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenPrintEntriesData_shouldReturnTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenSortedDataByZipCode_shouldReturnTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenSortedDataByFirstName_shouldReturnTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenSortedDataByLastName_shouldReturnTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonalInformation_whenUpdateData_shouldReturnTrue" />
-        <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenDeleteData_shouldRetunTrue" />
       </list>
     </recent_temporary>
   </component>

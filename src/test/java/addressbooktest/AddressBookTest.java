@@ -155,4 +155,11 @@ public class AddressBookTest {
         boolean isPrinted = addressBookController.printPersonEntriesData(filePath);
         Assert.assertTrue(isPrinted);
     }
+
+    @Test
+    public void givenPersonInformation_whenCreateNewAddressBook_shouldReturnTrue() {
+        String addressBookName = "Nileshraj";
+        boolean isFileCreated = addressBookController.createNewAddressBook(addressBookName);
+        Assert.assertTrue(isFileCreated);
+    }
 }
