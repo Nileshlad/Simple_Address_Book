@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="addressbooktest.AddressBookTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-07T08:44:08" hostname="blackhawkkk" time="0.436">
+<testsuite name="addressbooktest.AddressBookTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-07T08:47:25" hostname="blackhawkkk" time="0.349">
   <properties/>
-  <testcase name="givenPersonInformation_whenOpenExistingAddressBook_shouldReturnTrue" classname="addressbooktest.AddressBookTest" time="0.436"/>
+  <testcase name="givenPersonInformation_whenAddressBookNotExisting_shouldReturnFalse" classname="addressbooktest.AddressBookTest" time="0.349"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

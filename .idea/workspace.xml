@@ -2,6 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98259076-0d09-4e82-9d61-ab5a2eda030c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/addressbooktest/AddressBookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/addressbooktest/AddressBookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/addressbooktest.AddressBookTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/addressbooktest.AddressBookTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/addressbooktest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/addressbooktest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-addressbooktest.AddressBookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-addressbooktest.AddressBookTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/addressbooktest/AddressBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/addressbooktest/AddressBookTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +31,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,7 +82,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AddressBookTest.givenPersonInformation_whenCreateNewAddressBook_shouldReturnTrue">
+  <component name="RunManager" selected="Gradle.AddressBookTest.givenPersonInformation_whenAddressBookNotExisting_shouldReturnFalse">
+    <configuration name="AddressBookTest.givenPersonInformation_whenAddressBookNotExisting_shouldReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;addressbooktest.AddressBookTest.givenPersonInformation_whenAddressBookNotExisting_shouldReturnFalse&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="AddressBookTest.givenPersonInformation_whenCreateNewAddressBook_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -79,52 +123,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="AddressBookTest.givenPersonInformation_whenOpenExistingAddressBook_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;addressbooktest.AddressBookTest.givenPersonInformation_whenOpenExistingAddressBook_shouldReturnTrue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="AddressBookTest.givenPersonInformation_whenPrintEntriesData_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;addressbooktest.AddressBookTest.givenPersonInformation_whenPrintEntriesData_shouldReturnTrue&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AddressBookTest.givenPersonInformation_whenSortedDataByFirstName_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;addressbooktest.AddressBookTest.givenPersonInformation_whenSortedDataByFirstName_shouldReturnTrue&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AddressBookTest.givenPersonInformation_whenSortedDataByLastName_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;addressbooktest.AddressBookTest.givenPersonInformation_whenSortedDataByLastName_shouldReturnTrue&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -161,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenAddressBookNotExisting_shouldReturnFalse" />
+        <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenOpenExistingAddressBook_shouldReturnTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenCreateNewAddressBook_shouldReturnTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenPrintEntriesData_shouldReturnTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenSortedDataByZipCode_shouldReturnTrue" />
-        <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenSortedDataByFirstName_shouldReturnTrue" />
-        <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenSortedDataByLastName_shouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>

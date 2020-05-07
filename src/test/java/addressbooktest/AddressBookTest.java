@@ -172,4 +172,12 @@ public class AddressBookTest {
         Assert.assertTrue(isFileExist);
     }
 
+    //TEST CASE 1.10
+    @Test
+    public void givenPersonInformation_whenAddressBookNotExisting_shouldReturnFalse() {
+        String addressBookName = "Nilu";
+        boolean isFileExist = addressBookController.openExistingAddressBook(addressBookName);
+        Assert.assertFalse(isFileExist);
+    }
+
 }
