@@ -79,6 +79,7 @@ public class AddressBookTest {
             e.printStackTrace();
         }
     }
+
     //TEST CASE 1.4
     @Test
     public void givenPersonInformation_whenSortedDataByLastName_shouldReturnTrue() throws IOException {
@@ -209,4 +210,16 @@ public class AddressBookTest {
             e.printStackTrace();
         }
     }
+
+    //TEST CASE 1.13
+    @Test
+    public void givenPersonInformation_whenSaveAsAddressBook_shouldReturnTrue() {
+        String filePath = "C:\\Users\\Blackhawkkk1\\IdeaProjects\\Simple_AddressBook_Statement\\src\\main\\resources\\Gopi.json";
+        Person personInformation = new Person
+                ("pranv", "avte", "kundal road", "puna", "maharashtra", "707121", "8308087259");
+        addressBookController.addPersonInformation(personInformation, filePath);
+        boolean isSaveAs = addressBookController.saveAsAddressBook(filePath, personInformation);
+        Assert.assertTrue(isSaveAs);
+    }
+
 }

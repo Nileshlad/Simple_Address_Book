@@ -8,9 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/addressbooktest/AddressBookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/addressbooktest/AddressBookTest.class" afterDir="false" />
@@ -19,7 +17,7 @@
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/addressbooktest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/addressbooktest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-addressbooktest.AddressBookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-addressbooktest.AddressBookTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Nilesh.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Nilesh.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/addressbooktest/AddressBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/addressbooktest/AddressBookTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +84,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.AddressBookTest.givenPersonInformation_whenOpenExistingAddressBook_shouldReturnTrue1">
+  <component name="RunManager" selected="Gradle.AddressBookTest.givenPensonInformation_whenSaveAddressBook_shouldReturnTrue">
+    <configuration name="AddressBookTest.givenPensonInformation_whenSaveAddressBook_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;addressbooktest.AddressBookTest.givenPensonInformation_whenSaveAddressBook_shouldReturnTrue&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="AddressBookTest.givenPersonInformation_whenAddressBookNotExisting_shouldReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -167,33 +185,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AddressBookTest.givenPersonInformation_whenPrintEntriesData_shouldReturnTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;addressbooktest.AddressBookTest.givenPersonInformation_whenPrintEntriesData_shouldReturnTrue&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AddressBookTest.givenPensonInformation_whenSaveAddressBook_shouldReturnTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenOpenExistingAddressBook_shouldReturnTrue1" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenAddressBookNotExisting_shouldReturnFalse" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenOpenExistingAddressBook_shouldReturnTrue" />
         <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenCreateNewAddressBook_shouldReturnTrue" />
-        <item itemvalue="Gradle.AddressBookTest.givenPersonInformation_whenPrintEntriesData_shouldReturnTrue" />
       </list>
     </recent_temporary>
   </component>
