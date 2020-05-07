@@ -127,4 +127,25 @@ public class AddressBookTest {
         Assert.assertEquals("pranv", data.get(data.size() - 1).getFirstName());
     }
 
+    //TEST CASE 1.6
+    @Test
+    public void givenPersonInformation_whenSortedDataByZipCode_shouldReturnTrue() throws IOException {
+        Person personInformation1 = new Person
+                ("kunal", "pawar", "ring road", "kundal", "maharashtra", "416416", "9561159826");
+        Person personInformation2 = new Person
+                ("pranv", "avte", "kundal road", "puna", "maharashtra", "707121", "8308087259");
+        Person personInformation3 = new Person
+                ("Akash", "savat", "Nagar", "kholapur", "Karnataka", "458963", "7083560957");
+
+        addressBookController.addPersonInformation(personInformation1, filePath);
+        addressBookController.addPersonInformation(personInformation2, filePath);
+        addressBookController.addPersonInformation(personInformation3, filePath);
+        addressBookController.sortPersonDataByZipCode(filePath);
+
+        ArrayList<Person> data = objectMapper
+                .readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
+                });
+        Assert.assertEquals("632311", data.get(0).getZip());
+        Assert.assertEquals("899091", data.get(data.size() - 1).getZip());
+    }
 }

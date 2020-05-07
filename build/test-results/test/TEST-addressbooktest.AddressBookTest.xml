@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="addressbooktest.AddressBookTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-05-07T08:09:54" hostname="blackhawkkk" time="0.496">
+<testsuite name="addressbooktest.AddressBookTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-05-07T08:26:46" hostname="blackhawkkk" time="0.475">
   <properties/>
-  <testcase name="givenPersonInformation_whenSortedDataByFirstName_shouldReturnTrue" classname="addressbooktest.AddressBookTest" time="0.496">
+  <testcase name="givenPersonInformation_whenSortedDataByZipCode_shouldReturnTrue" classname="addressbooktest.AddressBookTest" time="0.475">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(String.java:1196)
 	at java.base/java.lang.String.compareTo(String.java:125)
@@ -10,8 +10,8 @@
 	at java.base/java.util.TimSort.sort(TimSort.java:220)
 	at java.base/java.util.Arrays.sort(Arrays.java:1515)
 	at java.base/java.util.ArrayList.sort(ArrayList.java:1749)
-	at controller.AddressBookController.sortPersonDataByLastName(AddressBookController.java:85)
-	at addressbooktest.AddressBookTest.givenPersonInformation_whenSortedDataByFirstName_shouldReturnTrue(AddressBookTest.java:121)
+	at controller.AddressBookController.sortPersonDataByZipCode(AddressBookController.java:99)
+	at addressbooktest.AddressBookTest.givenPersonInformation_whenSortedDataByZipCode_shouldReturnTrue(AddressBookTest.java:142)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
