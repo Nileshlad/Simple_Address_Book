@@ -1,0 +1,65 @@
+[
+  {
+    "firstName": null,
+    "lastName": null,
+    "address": null,
+    "city": null,
+    "state": null,
+    "zip": null,
+    "phoneNumber": null
+  },
+  {
+    "firstName": "kunal",
+    "lastName": "pawar",
+    "address": "ring road",
+    "city": "kundal",
+    "state": "maharashtra",
+    "zip": "416416",
+    "phoneNumber": "9561159826"
+  },
+  {
+    "firstName": "pranv",
+    "lastName": "avte",
+    "address": "kundal road",
+    "city": "puna",
+    "state": "maharashtra",
+    "zip": "707121",
+    "phoneNumber": "8308087259"
+  },
+  {
+    "firstName": "Akash",
+    "lastName": "savat",
+    "address": "Nagar",
+    "city": "kholapur",
+    "state": "Karnataka",
+    "zip": "458963",
+    "phoneNumber": "7083560957"
+  },
+  {
+    "firstName": "kunal",
+    "lastName": "pawar",
+    "address": "ring road",
+    "city": "kundal",
+    "state": "maharashtra",
+    "zip": "416416",
+    "phoneNumber": "9561159826"
+  },
+  {
+    "firstName": "pranv",
+    "lastName": "avte",
+    "address": "kundal road",
+    "city": "puna",
+    "state": "maharashtra",
+    "zip": "707121",
+    "phoneNumber": "8308087259"
+  },
+  {
+    "firstName": "Akash",
+    "lastName": "savat",
+    "address": "Nagar",
+    "city": "kholapur",
+    "state": "Karnataka",
+    "zip": "458963",
+    "phoneNumber": "7083560957"
+  }
+]
