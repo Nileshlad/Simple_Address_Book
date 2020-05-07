@@ -85,14 +85,13 @@ public class AddressBookController implements IAddressBook {
             data.sort(Comparator.comparing(Person::getLastName));
             writeFileData(data, filePath);
             ArrayList<Person> sortedDataByLastName = readFileData(filePath);
-            if (sortedDataByLastName.get(0).getLastName().equals(sortedDataByLastName.get(1).getLastName()))
+            if(sortedDataByLastName.get(0).getLastName().equals(sortedDataByLastName.get(1).getLastName()))
                 sortedDataByLastName.sort(Comparator.comparing(Person::getFirstName));
             writeFileData(sortedDataByLastName, filePath);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
     @Override
     public void sortPersonDataByZipCode(String filePath) {
         try {

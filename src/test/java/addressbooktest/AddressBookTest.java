@@ -79,4 +79,27 @@ public class AddressBookTest {
             e.printStackTrace();
         }
     }
+    //TEST CASE 1.4
+    @Test
+    public void givenPersonInformation_whenSortedDataByLastName_shouldReturnTrue() throws IOException {
+        String filePath = "C:\\Users\\Blackhawkkk1\\IdeaProjects\\Simple_AddressBook_Statement\\src\\main\\resources\\SortDataByLastName.json";
+        Person person1 = new Person
+                ("kunal", "pawar", "ring road", "kundal", "maharashtra", "416416", "9561159826");
+        Person person2 = new Person
+                ("pranv", "avte", "kundal road", "puna", "maharashtra", "707121", "8308087259");
+        Person person3 = new Person
+                ("Akash", "savat", "Nagar", "kholapur", "Karnataka", "458963", "7083560957");
+
+        addressBookController.addPersonInformation(person1, filePath);
+        addressBookController.addPersonInformation(person2, filePath);
+        addressBookController.addPersonInformation(person3, filePath);
+        addressBookController.sortPersonDataByLastName(filePath);
+
+        ArrayList<Person> data = objectMapper
+                .readValue(new File(filePath), new TypeReference<ArrayList<Person>>() {
+                });
+        Assert.assertEquals("avte", data.get(0).getLastName());
+        Assert.assertEquals("savat" +
+                "", data.get(data.size() - 1).getLastName());
+    }
 }
